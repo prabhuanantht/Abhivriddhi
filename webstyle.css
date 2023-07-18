@@ -1,20 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/*'Lobster Two', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Sirin+Stencil&display=swap');
+/*'Sirin Stencil', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+/*Domain name font*/
+@import url('https://fonts.googleapis.com/css2?family=Overlock+SC&display=swap');
+/*Slogan font*/
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
 
 
 .webheader{
 
-    font-family: 'Lobster Two', cursive;
-    font-size: 200%;
-    color: #47294c;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 250%;
+    color: #5b3629;
     text-align: left;
     stroke: 1px,white;
     margin-left: 9%;
+    letter-spacing: 0.1cm;
 
     
 }
 
-
+.slogan{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 40%;
+    letter-spacing:0.3cm;
+}
 .paratext{
     
     font-family: 'Poppins', sans-serif;
@@ -31,4 +45,24 @@
     height: 50px;
     width: 60px;
     background-image: linear-gradient(to bottom right,#dbd3d1,black)
+}
+
+
+.profileicon{
+    width: 38px;
+    height: 37px;
+    object-position: 1cm;
+}
+
+
+.domain_names{
+    font-family: 'Overlock SC', cursive;
+    font-size: 21px;
+    color: #5b3629;
+}
+
+.box{
+    stroke: #5b3629;
+    stroke-width: 2.5px;
+    fill: none;
 }
