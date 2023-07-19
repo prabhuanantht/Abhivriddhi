@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+/*para text font-family: 'Poppins', sans-serif;*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 /*'Lobster Two', cursive;*/
 @import url('https://fonts.googleapis.com/css2?family=Sirin+Stencil&display=swap');
@@ -8,8 +9,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Overlock+SC&display=swap');
 /*Slogan font*/
 @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
-
-
+/*India header*/
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+/*Noto sans font-family: 'Noto Sans', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap');
+/*India text*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols:wght@300&display=swap');
 
 .webheader{
 
@@ -41,16 +46,9 @@
 }
 
 
-.square{
-    height: 50px;
-    width: 60px;
-    background-image: linear-gradient(to bottom right,#dbd3d1,black)
-}
-
-
 .profileicon{
-    width: 38px;
-    height: 37px;
+    width: 75%;
+    height: 75%;
     object-position: 1cm;
 }
 
@@ -63,6 +61,75 @@
 
 .box{
     stroke: #5b3629;
-    stroke-width: 2.5px;
+    stroke-width: 1%;
     fill: none;
+    
+}
+
+.indiarect{
+    height: 580px;
+    width: 1478px;
+    background-color: black;
+    position:absolute;
+    top: 20%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    margin-left:2%;
+    margin-right:5%;
+    box-shadow: 0px 0px 1px 2px grey;
+
+    
+    
+}
+
+
+.indiaheader{
+    font-family: 'Cinzel', serif;
+    color: white;
+    font-size: 270%;
+    left: 12%;
+    bottom: 62%;
+}
+
+
+
+.inkartext{
+    font-family: 'Noto Sans Symbols', sans-serif;
+    font-size: medium;
+    color: white;
+    font-size:18px;
+    margin-left: 2.5%;
+    margin-right: 3%;
+    position: absolute;
+    left:3% ;
+    top:33%;
+    letter-spacing: 0.05cm;
+}
+
+.karnatakarect{
+    height: 580px;
+    width: 1478px;
+    background-color: black;
+    position:absolute;
+    top: 110%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    margin-left:2%;
+    margin-right:5%;
+    box-shadow: 0px 0px 1px 2px grey;
+}
+
+
+.invscb::-webkit-scrollbar{
+    display: none;
+}
+
+
+.credits{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color:gray;
+    font-size: 12px;
 }
