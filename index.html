@@ -1,60 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+    <head>
+        <title>Abhivriddhi</title>
+        <link rel="stylesheet" href="webstyle.css"/>
+        <link rel="icon" type="x-icon" href="hut100bright.png"/>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    </head>
     
-    <title>Abhivriddhi</title>
-    <link rel="stylesheet" href="webstyle.css"/>
-    <link rel="icon" type="x-icon" href="hut100bright.png"/>
-</head>
-
-
-<body style="background-color:#e6ddd6;margin-top: 1.5%;margin-left: 2%;margin-right: 2%">
-
-    
-    <!--Header-->
-    <div style="position:fixed ;left: 0%;top: 2.5%;"
-        <h1 class="webheader">Abhivriddhi</h1>
-        <h5 style="position: fixed;right: 68%;top: 6%;" class="slogan">Farmstead Forward</h5>
-    </div>
-
-
-    <!--Logo-->
-        <div style="position: fixed;left: 3%;top:3%;">
-            <img style="width: 75%;height: 75%;" src="hut.png" alt="Abhivriddhi Logo" />
-        </div>
-
-
-    <!--Profile box-->
-    <div style="position: fixed;left: 80.1%;top:3.2%">
-        <svg>
-            <rect class="box" x="12" y="12" width="65%" height="30%" rx="7%" ry="15%"/>
-        </svg>  
-    </div>
-
-
-    <!--Profile text-->
-    <h3 style="position: fixed;left: 86.4%;top: 3.15%;" class="domain_names">Profile</h3>   
-
-
-    <!--Profile icon-->
-    <div style="position: fixed; left: 83%; top: 5.5%">
-        <img src="profile icon.png" alt="Profile icon" style="width: 35px;"/>
-    </div>
-
-
-    <!--Header-->
-    <hr style="border: 1px solid #5b3629;margin-top: 8%;"/>
-
-    
-    <!-- Video-->
-    <div style="width:auto;height: auto; position: fixed; left:45%; top:25%; border-color: #5b3629; border-width: 3%;">
-        <video width="800" height="450" autoplay muted title="India"
-        <source src="india.mp4" type="video/mp4">
-    Your browser does not support the video tag
-        </video>
-    </div>
 
 
 
-</body>
+    <body class="invscb" style="background-color:#e6ddd6;margin-top: 1.5%;margin-left: 2%;margin-right: 2%; overflow:auto;z-index: 0">
+
+<!--Section - 1 Top -->
+
+        <section style="position: fixed;z-index:2;">
+
+
+            <!--Header-->
+            <div style="position:fixed ;left: 0%;top: 2.5%;"
+                <h1 class="webheader">Abhivriddhi</h1>
+                <h5 style="position: fixed;right: 68%;top: 6%;" class="slogan">Farmstead Forward</h5>
+            </div>
+
+
+            <!--Logo-->
+                <div style="position: fixed;left: 3%;top:3%;z-index:2">
+                    <img style="width: 75%;height: 75%;" src="hut.png" alt="Abhivriddhi Logo" />
+                </div>
+
+
+            <!--Profile box-->
+                <div style="position: fixed;left: 80.1%;top:3.2%;z-index: 2;">
+                    <svg>
+                        <rect class="box" x="12" y="12" width="65%" height="30%" rx="7%" ry="15%"/>
+                    </svg>  
+                </div>
+
+
+            <!--Profile text-->
+                <h3 style="position: fixed;left: 86.4%;top: 3.15%;" class="domain_names">Profile</h3>   
+
+
+            <!--Profile icon-->
+                <div style="position: fixed; left: 83%; top: 5.5%">
+                    <img src="profile icon.png" alt="Profile icon" style="width: 35px;"/>
+                </div>
+
+
+            <!--Header-->
+                <hr style="border: 1px solid #5b3629; position:fixed; bottom:82.5%; right:1.8%; margin-top: 8%; width: 96%; box-shadow: 3px 3px 5px 0px gray"/>
+        </section>
+
+
+        
+<!--Section 2 - India Section -->
+
+        <section>
+
+            <!--Video background-->
+            <div class="indiarect"></div>
+
+
+            <!-- Video-->
+            <div style="width:auto;height: auto; position: absolute; left:34.5%; top:22.3%; border-color: #5b3629; border-width: 3%;">
+                <video width="960" height="540" autoplay title="India"
+                <source src="india.mp4" type="video/mp4">
+                </video>
+            </div>
+
+
+            <!--India video credits-->
+            <div>
+                <span style="position:absolute;top: 99.5%;left: 85%;" class="credits">Credits : Hugo Moussy, Youtube</span>
+            </div>
+
+            
+            <!--India header-->
+            <div>
+                <p style="position: absolute;" class="indiaheader">India</p>
+                <hr style="position: absolute;border: 1px solid white;top: 30%;left:11.5%;width:9%"/>
+            </div>
+
+
+            <!--India text-->
+            <div>
+                <p class="inkartext">
+                    Hello India 
+                </p>
+            </div>
+        </section>
+
+<!--Section 3 Karnartaka Section-->
+
+        <section>
+
+            <!--Video background-->
+            <div class="karnatakarect">
+                <p class="inkartext">Hello</p>
+            </div>
+            
+            <div>
+                <p style="position: absolute;top:110%;" class="paratext">Hello</p>
+            </div>
+            
+        </section>
+
+
+
+
+    </body>
 </html>
