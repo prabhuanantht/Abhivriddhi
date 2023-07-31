@@ -1,0 +1,120 @@
+<!--Profile page - Made by Archith-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Profile</title>
+        <link rel="stylesheet" href="webstyle.css"/>
+        <link rel="icon" type="x-icon" href="hut100bright.png"/>
+        <meta charset="UTF-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable-no">
+    </head>
+    
+
+
+
+    <body class="invscb" style="background-color:#e6ddd6;margin-top: 1.5%;margin-left: 2%;margin-right: 2%; z-index: -1;margin-bottom: 25px;">
+
+<!--Section - 1 Top -->
+
+        <section style="z-index:1;position: absolute;">
+
+            
+            <!--Header-->
+            <div style="position:fixed ;left: 0%;top: 2.5%;"
+                <h1 class="webheader">Abhivriddhi</h1>
+                <h5 style="position: fixed;right: 68%;top: 6%;" class="slogan">Farmstead Forward</h5>
+                <div class="headback"></div>
+            </div>
+
+
+            <!--Logo-->
+                <div style="position: fixed;left: 3%;top:3%;z-index:2">
+                    <img style="width: 75%;height: 75%;" src="hut.png" alt="Abhivriddhi Logo"/>
+                </div>
+                <a href="profile.html">
+
+
+              <!--Back button-->
+              <a href="index.html">
+                <button class="profile-button">
+                <span style="font-family: 'Overlock SC', cursive;font-size:180%">Back</span>
+                </button>
+                </a>
+
+                    
+
+                <!--Horizontal rule-->
+                <hr style="border: 1px solid #5b3629; position:fixed; bottom:82.5%; right:1.8%; margin-top: 8%; width: 96%; box-shadow: 3px 3px 5px 0px black"/>
+            </section>
+
+
+         
+            <span class="account_search"><u style="text-decoration-style: dotted;text-decoration-thickness: 10%; text-decoration-color: #5b3629; text-underline-offset: 25%;">Account information</u></span>
+           
+
+            <div style="position: absolute;left:10%;top:60%; height: 45%; width:45%">
+                <img src="Yellamma.jpg" style="border-radius: 5%;height: 75%;width:40%; border: 4.5px solid #5b3629;position: absolute;top: -30%;"/>
+            </div>
+
+           <table class="paratext" style="position: absolute;top:45%;left: 33%; letter-spacing: 0.05cm; font-size: larger;border-left: 2px dashed #5b3629;border-spacing: 30px;">
+
+            <tr>
+                <td>Yellamma P</td>
+            </tr>
+
+            <tr>
+                <td>Farmer</td>
+            </tr>
+
+            <tr>
+                <td>Ph : 9988776655</td>
+            </tr>
+
+            <tr>
+                <td>Hootgalli, Mysore, Karnataka,570018</td>
+            </tr>
+           </table>
+
+        
+            <button class="profile-button" id="editProfileButton" style="position: absolute;top: 75%; z-index: -1;">
+            <span style="font-family: 'Overlock SC', cursive;font-size:180%;">Edit</span>
+            </button>
+        </a>
+
+
+        <span class="account_search" style="position: absolute;top: 102%;left: 37.3%;"><u style="text-decoration-style: dotted;text-decoration-thickness: 10%; text-decoration-color: #5b3629; text-underline-offset: 25%;">Recent activity</u></span>
+
+        <div class="posts-container">
+            <div class="post">
+              <p style="font-family: 'Poppins', sans-serif; color: #5b3629;">Searched yesterday:</p>
+              <p><a class="enlarge-text" target="_blank" href="https://www.myscheme.gov.in/schemes/samruddhischeme">Samruddhi Scheme</a>
+            </div>
+            <div class="post">
+              <p style="font-family: 'Poppins', sans-serif; color: #5b3629;">Searched on 25th July 2023:</p>
+              <p><a class="enlarge-text" target="_blank" href="https://www.msde.gov.in/en/schemes-initiatives/schemes-initiatives-through-DGT/vocational-training-programme-for-women">Women Training Program</a>
+            </div>
+            <!-- Add more posts or activities here -->
+          </div>
+    </div>
+
+
+
+        <div id="modal" class="modal" style="display: none;">
+            <div class="modal-content">
+              <span class="close" id="closeModal">&times;</span>
+              <h2>Edit Profile</h2>
+              <!-- Add your form or editable profile fields here -->
+              <p>Username: <input type="text" value="Yellamma P"></p>
+              <p>Occupation: <input type="text" value="Farmer"></p>
+              <p>Email: <input type="text" value="Add e-mail"></p>
+              <p>Location: <input type="text" value="Hootagalli, Mysuru, India"></p>
+              <p>Pin Code: <input type="text" value="570018"></p>
+              <button id="saveProfileButton">Save Changes</button>
+            </div>
+          </div>
+
+          <script src="script.js"></script>
+
+            

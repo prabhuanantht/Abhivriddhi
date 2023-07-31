@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Profile</title>
+  <link rel="stylesheet" type="text/css" href="webstyle.css">
+  <link rel="icon" type="x-icon" href="hut100bright.png"/>
+</head>
+
+        <body class="invscb" style="background-color:#e6ddd6;margin-top: 1.5%;margin-left: 2%;margin-right: 2%; z-index: -1;">
+
+    <!--Section - 1 Top -->
+
+            <section style="z-index:2;position: absolute;">
+
+                
+                <!--Header-->
+                <div style="position:fixed ;left: 0%;top: 2.5%;"
+                    <h1 class="webheader">Abhivriddhi</h1>
+                    <h5 style="position: fixed;right: 68%;top: 6%;" class="slogan">Farmstead Forward</h5>
+                    <div class="headback"></div>
+                </div>
+
+
+                <!--Logo-->
+                    <div style="position: fixed;left: 3%;top:3%;z-index:2">
+                        <img style="width: 75%;height: 75%;" src="hut.png" alt="Abhivriddhi Logo"/>
+                    </div>
+                    
+                    <a href="coverpage.html">
+                    <button class="profile-button">
+                    <span style="font-family: 'Overlock SC', cursive;font-size:180%">Back</span>
+                    </button>
+                    </a>
+
+
+                <!--Header-->
+                    <hr style="border: 1px solid #5b3629; position:fixed; bottom:82.5%; right:1.8%; margin-top: 8%; width: 96%; box-shadow: 3px 3px 5px 0px gray"/>
+            </section>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  
+
+
+  <div class="profile-container">
+    <div class="profile-picture">
+      <img src="student1.jpg" alt="Profile Picture">
+    </div>
+    <div class="profile-info">
+      <h1>Chinnamma</h1>
+      <p>Student</p>
+      <p>Email: chinnamma1972@gmail.com</p>
+      <p>Location: Hootagalli, Mysuru, India</p>
+      <p>          570018</p>
+      <button class="profile-button" id="editProfileButton">Edit Profile</button>
+    </div>
+    <div class="posts-container">
+      <h2>Recent Searches</h2>
+      <div class="post">
+        <p>Search 1:</p>
+        <p><a class="enlarge-text" target="_blank" href="https://scholarships.gov.in/">Pre-Matric Scholarship for SC/ST/OBC</a>
+      </div>
+      <div class="post">
+        <p>Search 2:</p>
+        <p><a class="enlarge-text" target="_blank" href="https://www.ugc.ac.in/ugc_notices.aspx">National Fellowship for Higher Education of ST Students (NFST)</a>
+      </div>
+    </div>
+  </div>
+
+
+  
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close" id="closeModal">&times;</span>
+      <h2>Edit Profile</h2>
+      <p>Username: <input type="text" value="Chinnamma"></p>
+      <p>Occupation: <input type="text" value="Student"></p>
+      <p>Email: <input type="text" value="chinnamma1972@gmail.com"></p>
+      <p>Location: <input type="text" value="Hootagalli, Mysuru, India"></p>
+      <p>Pin Code: <input type="text" value="570018"></p>
+      <button id="saveProfileButton">Save Changes</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

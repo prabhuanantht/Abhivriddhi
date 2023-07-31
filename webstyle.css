@@ -1,0 +1,1180 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+/*para text font-family: 'Poppins', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/*'Lobster Two', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Sirin+Stencil&display=swap');
+/*'Sirin Stencil', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+/*Domain name font*/
+@import url('https://fonts.googleapis.com/css2?family=Overlock+SC&display=swap');
+/*Slogan font*/
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+/*India header*/
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+/*Noto sans font-family: 'Noto Sans', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap');
+/*India text*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols:wght@300&display=swap');
+
+
+
+
+
+
+/*Archith*/
+
+
+.webheader{
+
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 250%;
+    color: #5b3629;
+    text-align: left;
+    stroke: 1px,white;
+    margin-left: 9%;
+    letter-spacing: 0.1cm;
+    position: fixed;
+
+    
+}
+
+.slogan{
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 40%;
+    letter-spacing:0.3cm;
+    text-align: left;
+    margin: left -0.6%;  
+}
+
+.paratext{
+    
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+    color: black;
+    font-size:112.5%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.team{
+  font-family: 'Poppins', sans-serif;
+    font-size: medium;
+    color: #5b3629;
+    font-size:medium;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.profileicon{
+    width: 75%;
+    height: 75%;
+    object-position: 1cm;
+}
+
+
+.domain_names{
+    font-family: 'Overlock SC', cursive;
+    font-size: 180%;
+    color: #5b3629;
+}
+
+.box{
+    stroke: #5b3629;
+    stroke-width: 1%;
+    fill: none;
+    
+}
+
+.indiarect{
+    height: 83%;
+    width: 96.25%;
+    background-color: black;
+    position:absolute;
+    top: 20%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    margin-left:2%;
+    margin-right:2%;
+    box-shadow: 0px 0px 1px 2px grey;
+
+    
+    
+}
+
+
+.indiaheader{
+    font-family: 'Cinzel', serif;
+    color: white;
+    font-size: 270%;
+    left: 13%;
+    bottom: 67.8%;
+}
+
+
+
+.inkartext{
+    font-family: 'Noto Sans Symbols', sans-serif;
+    font-size: medium;
+    color: white;
+    font-size:18px;
+    margin-left: 1.8%;
+    margin-right: 3%;
+    position: absolute;
+    left:3% ;
+    top:33%;
+    letter-spacing: 0.05cm;
+    text-align: justify;
+    width: 27%;
+}
+
+
+
+.karnatakarect{
+    height: 50%;
+    width: 96.25%;
+    background-color: black;
+    position:absolute;
+    top: 110%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    margin-left:2%;
+    margin-right:5%;
+    box-shadow: 0px 0px 1px 2px grey;
+}
+    
+
+
+.invscb::-webkit-scrollbar{
+  display: none;
+    
+    
+}
+
+
+.credits{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color:gray;
+    font-size: 75%;
+}
+
+
+.headback{
+    background-color: #e6ddd6;
+    height: 16.25%;
+    width: 100%;
+    position:fixed;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+}
+
+.contact-services-section {
+  height: 45%;
+  width: 93.5%;
+  padding: 20px;
+  background-color: #ddcfc6;
+  display: flex;
+  justify-content: space-around;
+  top: 165%;
+  position: absolute;
+
+}
+
+.contact-details, .services {
+  width: 45%;
+}
+
+.contact-details h2, .services h2 {
+  margin-top: 0;
+}
+
+.services ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.services li {
+  margin-bottom: 10px;
+}
+
+
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the gallery-box horizontally */
+.gallery-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/* Style the images in the gallery */
+.gallery-box img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    margin: 5px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.account{
+  position: absolute;
+  top: 25%;
+  left: 33%;
+  letter-spacing: 0%;
+  font-size: 210%;
+  font-family: 'Julius Sans One', sans-serif;
+  letter-spacing: 0.06cm;
+  text-align: center; 
+}
+
+
+
+.account_search{
+  position: absolute;
+  top: 25%;
+  left: 33%;
+  letter-spacing: 0%;
+  font-size: 210%;
+  font-family: 'Julius Sans One', sans-serif;
+  letter-spacing: 0.06cm;
+  text-align: center; 
+}
+
+
+/*-----------------------------------------------------------------------*/
+
+body {
+    font-family: "Georgia", serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6ddd6;
+  }
+  
+  .profile-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+  .profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #d4b27b;
+  }
+  
+  .profile-info h1 {
+    margin: 10px 0;
+    color: #985c2d;
+  }
+  
+  .profile-info p {
+    margin: 5px 0;
+    color: #6d4621;
+  }
+  
+  .posts-container {
+    margin-top: 55%;
+  }
+  
+  .post {
+    border: 2px solid #5b3629;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #e6ddd6;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #e6ddd6;
+    color: #5b3629;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  
+  button:hover {
+    color: #e6ddd6;
+    background-color: #5b3629;
+  }
+
+
+  /*Dropdown - Ananth*/
+
+  .dropdown-container {
+    position:relative;
+    display: inline-block;
+    left:60%;
+  }
+  
+  .services-button {
+    height: 9%;
+    width: 13%;
+    position: fixed;
+    top: 3.2%;
+    left: 64%;
+    z-index: 2;
+    background-color: #e6ddd6; 
+    outline: 1px solid #5b3629;
+    outline-offset: -6px;
+    outline-width: 2px;
+    border-radius: 60px;
+    fill: #e6ddd6;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-image: url('droplight.png');
+    background-repeat: no-repeat;
+    background-size: 25px 25px; 
+    background-position: right 12px center;
+    padding-right: 35px
+  
+  }
+  
+  .services-button:hover {
+    outline-offset: -4px;
+    color: white;
+    background-color: #5b3629;
+    outline: 2px solid white;
+  }
+  
+  
+  /* dropdown css
+  
+  /* Add styles for the dropdown content */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #e6ddd6;
+    border-radius: 30px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 2;
+    top:100%;
+   
+  }
+  
+  /* Style the links inside the dropdown */
+  .dropdown-content a {
+    display: block;
+    color: #5b3629;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    color: #e6ddd6;
+    background-color: #5b3629;
+  }
+  
+  /* Show the dropdown content when hovering on the button */
+  .services-button:hover .dropdown-content {
+    display: block;
+  
+  }
+  
+  .button-link {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #e6ddd6;
+    border: 1px solid #5b3629;
+    border-radius: 50px;
+    color: #5b3629;
+    text-decoration: none;
+    font-family: 'Overlock SC', cursive;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .button-link:hover {
+    background-color: #5b3629;
+    color: white;
+  }
+  
+
+  /*dropdown ends*/
+
+  
+  /* Styles for the modal popup */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-content {
+    background-color: #f7f1e5;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .close {
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover {
+    color: #985c2d;
+  }
+  
+  .modal-content h2 {
+    margin: 0 0 10px;
+    color: #985c2d;
+  }
+  
+  .modal-content p {
+    margin: 0;
+  }
+  
+  .modal-content input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #d4b27b;
+    border-radius: 5px;
+  }
+  
+  .modal-content button {
+    background-color: #e6ddd6;
+    outline: 2px solid #5b3629;
+    color: #5b3629;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .modal-content button:hover {
+    background-color: #5b3629;
+    color: #e6ddd6;
+    outline-offset: 2px;
+  }
+  
+  .enlarge-text {
+    font-size: 16px;
+    transition: font-size 0.3s ease;
+  }
+  
+  .enlarge-text:hover {
+    font-size: 110%; 
+  }
+  
+
+
+
+
+  /*Sumedha*/
+
+  .careername{
+    font-family: 'Poppins',sans-serif;
+    color: rgb(14, 13, 13);
+    font-size: 200%;
+    left: 60%;
+    bottom: 70%;
+    font-weight: 550;
+
+}
+
+.image_box{
+    width: 8%;
+    padding: 8%;
+    border: "50px";
+    border-color: #5b3629;
+    
+}
+
+.careerheader{
+    font-family: 'Cinzel', serif;
+    color:rgb(5, 5, 5);
+    font-size: 270%;
+    left: 1.5%;
+    bottom: 31%;
+    font-weight: 550;
+    
+}
+
+
+
+.careertext{
+    font-family: 'Noto Sans Symbols', sans-serif;
+    font-size: medium;
+    color: rgb(53, 46, 27);
+    font-size:18px;
+    margin-left: 2.5%;
+    margin-right: 3%;
+    position: absolute;
+    left:1.5% ;
+    top:45%;
+    letter-spacing: 0.1cm;
+    font-weight: 600;
+    width:50%;
+}
+
+
+  .cgtext{
+    
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+    position:absolute;
+    color: black;
+    font-size:112.5%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  
+  .lawheader{
+    font-family: 'Cinzel', serif;
+    color:rgb(53, 46, 27);
+    font-size: 270%;
+    font-weight: 700;
+    letter-spacing: 0.1cm;
+    left: 1.5%;
+    bottom: 31%;
+    font-weight: 550;
+
+}
+
+.mainheader {
+  font-family: 'Cinzel', serif;
+  color: rgb(53, 46, 27);
+  font-size: 270%;
+  font-weight: 700;
+  letter-spacing: 0.1cm;
+  left: 1.5%;
+  bottom: 31%;
+  font-weight: 550;
+
+}
+
+.credits1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+  color: gray;
+  font-size: 12px;
+}
+
+
+
+.fashionheader{
+    font-family: 'Cinzel', serif;
+    color:rgb(53, 46, 27);
+    font-size: 270%;
+    font-weight: 700;
+    letter-spacing: 0.1cm;
+    left: 1.5%;
+    bottom: 31%;
+    font-weight: 550;
+
+}
+
+.lawtext{
+    font-family: 'Noto Sans Symbols', sans-serif;
+    font-size: medium;
+    color: rgb(53, 46, 27);
+    font-size:18px;
+    margin-left: 2.5%;
+    margin-right: 3%;
+    position: absolute;
+    left:1.5% ;
+    top: 34%;
+    letter-spacing: 0.1cm;
+    font-weight: 600;
+    width:50%;
+}
+
+
+.sectionheader{
+
+    font-family: 'Poppins', sans-serif;
+    position:absolute;
+    color: rgb(53, 46, 27);
+    font-size:30px;
+    margin-left: 2.5%;
+    margin-right: 3%;
+    left:1.7% ;
+    letter-spacing: 0.1cm;
+    font-weight: 400;
+    width:100%;
+    padding-left: 0.5%;
+    border-left-style:solid;
+    border-left-color: #a27768;
+    border-left-width: 10px;
+    
+}
+
+.table1 {
+  border-color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-size: medium;
+  position: absolute;
+  letter-spacing: 0.05cm;
+  font-weight: lighter;
+  border: 2px solid #5b3629;
+  padding: 2%;
+  border-collapse: separate;
+  width: fit-content;
+  margin: 2%;
+  column-gap: 60%;
+  
+}
+
+
+.td1{
+  padding-left: 2%;
+  list-style-type: disc;
+  list-style-position: outside;
+  text-indent: -1.5em;
+  
+}
+
+
+
+.headback1 {
+  background-color: #e6ddd6;
+  height: 115.5px;
+  width: 1533px;
+  position: fixed;
+  top: 0px;
+  right: 1px;
+  z-index: -1;
+}
+
+
+.webheader1 {
+
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 250%;
+  color: #5b3629;
+  text-align: left;
+  stroke: 1px, white;
+  margin-left: 9%;
+  letter-spacing: 0.1cm;
+
+}
+
+.domain_names1 {
+  font-family: 'Overlock SC', cursive;
+  font-size: 21px;
+  color: #5b3629;
+}
+
+
+
+/*Niroop*/
+
+
+.headback{
+  background-color: #e6ddd6;
+  height: 115.5px;
+  width: 1533px;
+  position:fixed;
+  top: 0px;
+  right: 1px;
+  z-index: -1;
+}
+
+
+.scholarshipbox{
+  stroke: #0f0f0f;
+  stroke-width: 1%;
+  fill:none;
+
+}
+
+.scholarship{
+  font-family: 'Poppins',sans-serif;
+  color: rgb(14, 13, 13);
+  font-size: 200%;
+  left: 60%;
+  bottom: 70%;
+  font-weight: 550;
+
+}
+
+.image_box{
+  width: 8%;
+  padding: 8%;
+  border: "50px";
+  border-color: #5b3629;
+}
+
+
+.merit {
+  height: 60%;
+  width: 20%;
+  background-color: #ddcfc6;
+  position: absolute;
+  top: 110%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  margin-left: 2%;
+  margin-right: 2%;
+  box-shadow: 0px 0px 1px 2px rgb(211, 205, 205);
+}
+
+
+.eduheader {
+  font-family: 'Cinzel', serif;
+  color: rgb(5, 5, 5);
+  font-size: 270%;
+  left: 1.5%;
+  bottom: 31%;
+  font-weight: 550;
+
+}
+
+
+.edutext {
+  font-family: 'Noto Sans Symbols', sans-serif;
+  font-size: medium;
+  color: rgb(53, 46, 27);
+  font-size: 18px;
+  margin-left: 2.5%;
+  margin-right: 3%;
+  position: absolute;
+  left: 1.5%;
+  top: 45%;
+  letter-spacing: 0.1cm;
+  font-weight: 600;
+  width: 50%;
+}
+
+
+
+/* nagashree */
+
+.slogan1 {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 40%;
+  letter-spacing: 0.3cm;
+}
+
+
+.empheader {
+  font-family: 'Cinzel', serif;
+  color: rgb(5, 5, 5);
+  font-size: 270%;
+  left: 1.5%;
+  bottom: 31%;
+  font-weight: 550;
+
+}
+
+.emptext {
+  font-family: 'Noto Sans Symbols', sans-serif;
+  font-size: medium;
+  color: rgb(53, 46, 27);
+  font-size: 18px;
+  margin-left: 2.5%;
+  margin-right: 3%;
+  position: absolute;
+  left: 1.5%;
+  top: 45%;
+  letter-spacing: 0.1cm;
+  font-weight: 600;
+  width: 50%;
+}
+
+.jobs {
+  height: 250px;
+  width: 250px;
+  background-color: #ddcfc6;
+  position: absolute;
+  top: 110%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  margin-left: 2%;
+  margin-right: 2%;
+  box-shadow: 0px 0px 1px 2px rgb(211, 205, 205);
+}
+
+.employmentbox {
+  stroke: #0f0f0f;
+  stroke-width: 1%;
+  fill: none;
+
+}
+
+.employment {
+  font-family: 'Poppins', sans-serif;
+  color: rgb(14, 13, 13);
+  font-size: 200%;
+  left: 60%;
+  bottom: 70%;
+  font-weight: 550;
+
+}
+
+.fundbox{
+  stroke: #0f0f0f;
+  stroke-width: 1%;
+  fill:none;
+
+}
+
+.fund{
+  font-family: 'Poppins',sans-serif;
+  color: rgb(14, 13, 13);
+  font-size: 200%;
+  left: 60%;
+  bottom: 70%;
+  font-weight: 550;
+}
+
+
+.fundtext{
+  height:60%;
+  width: 20%;
+  background-color: #ddcfc6;
+  position:absolute;
+  top: 110%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  margin-left:2%;
+  margin-right:2%;
+  box-shadow: 0px 0px 1px 2px rgb(211, 205, 205);
+}
+
+
+/* inchara */
+
+
+.agriheader {
+  font-family: 'Cinzel', serif;
+  color: rgb(5, 5, 5);
+  font-size: 270%;
+  left: 1.5%;
+  bottom: 31%;
+  font-weight: 550;
+
+}
+
+
+.agritext {
+  font-family: 'Noto Sans Symbols', sans-serif;
+  font-size: medium;
+  color: rgb(53, 46, 27);
+  font-size: 18px;
+  margin-left: 2.5%;
+  margin-right: 3%;
+  position: absolute;
+  left: 1.5%;
+  top: 60%;
+  letter-spacing: 0.1cm;
+  font-weight: 600;
+  width: 50%;
+}
+
+
+.merit1 {
+  height: 50%;
+  width: 20%;
+  background-color: #ddcfc6;
+  position: absolute;
+  top: 110%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  margin-left: 2%;
+  margin-right: 2%;
+  box-shadow: 0px 0px 1px 2px rgb(211, 205, 205);
+}
+
+
+.para {
+  stroke: #0f0f0f;
+  stroke-width: 1%;
+  fill: none;
+
+}
+
+.agri {
+  font-family: 'Poppins', sans-serif;
+  color: rgb(14, 13, 13);
+  font-size: 200%;
+  left: 60%;
+  bottom: 70%;
+  font-weight: 550;
+
+}
+
+
+.image_box1 {
+  width: 8%;
+  padding: 4.5%;
+  margin-left: 40px;
+  margin-bottom: 50px;
+  border: "50px";
+  border-color: #5b3629;
+}
+
+.womenheader {
+  font-family: 'Cinzel', serif;
+  color: rgb(5, 5, 5);
+  font-size: 270%;
+  left: 1.5%;
+  bottom: 31%;
+  font-weight: 550;
+
+}
+
+.womentext {
+  font-family: 'Noto Sans Symbols', sans-serif;
+  font-size: medium;
+  color: rgb(53, 46, 27);
+  font-size: 18px;
+  margin-left: 2.5%;
+  margin-right: 3%;
+  position: absolute;
+  left: 1.5%;
+  top: 60%;
+  letter-spacing: 0.1cm;
+  font-weight: 600;
+  width: 50%;
+}
+
+
+
+.women {
+  font-family: 'Poppins', sans-serif;
+  color: rgb(14, 13, 13);
+  font-size: 200%;
+  left: 60%;
+  bottom: 70%;
+  font-weight: 550;
+
+}
+
+
+.video {
+  height: 400px;
+  width: 50%;
+  background-color: black;
+  position: absolute;
+  top: 210%;
+  left: 25%;
+  right: 0%;
+  bottom: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+  box-shadow: 0px 0px 1px 2px grey;
+}
+
+
+
+/* sinchana */
+
+.paratext1{
+
+  font-family: 'Poppins', sans-serif;
+  font-size: medium;
+  color: black;
+  font-size: 18px;
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+
+.inkartext1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: medium;
+  color: white;
+  font-size: 18px;
+  margin-left: 2.5%;
+  margin-right: 53%;
+  position: absolute;
+  left: 3%;
+  top: 33%;
+  letter-spacing: 0.05cm;
+
+}
+
+.veterinary {
+  font-family: 'Cinzel', serif;
+  color: black;
+  font-size: 270%;
+  left: 12%;
+  bottom: 62%;
+}
+
+
+
+.Veterinary {
+  font-family: 'Poppins', sans-serif;
+  font-size: medium;
+  color: black;
+  font-size: 18px;
+  margin-left: 2.5%;
+  margin-right: 53%;
+  position: absolute;
+  left: 3%;
+  top: 33%;
+  letter-spacing: 0.05cm;
+
+}
+
+.Animal_Abuse {
+  font-family: 'Cinzel', serif;
+  color: black;
+  font-size: 270%;
+  left: 5.4%;
+  top: 195%;
+}
+
+
+.animal_abuse {
+  font-family: 'Poppins', sans-serif;
+  font-size: medium;
+  color: black;
+  font-size: 18px;
+  margin-left: 2.5%;
+  margin-right: 33%;
+  position: absolute;
+  left: 3%;
+  top: 210%;
+  letter-spacing: 0.05cm;
+
+}
+
+.abuse {
+  height: 60%;
+  width: 20%;
+  background-color: #ddcfc6;
+  position: absolute;
+  top: 230%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  margin-left: 2%;
+  margin-right: 2%;
+  box-shadow: 0px 0px 1px 2px rgb(211, 205, 205);
+}
+
+
+
+.profile-button{
+  color: #5b3629;
+    height: 9%;
+    width: 13%;
+    position: fixed;
+    top: 3.2%;
+    left: 80%;
+    z-index:2;
+    background-color:#e6ddd6; 
+    outline: 1px solid #5b3629;
+    outline-offset: -6px;
+    outline-width: 2px;
+    border-radius: 60px;
+    fill:#e6ddd6;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.profile-button:hover{
+  outline-offset: -4px;
+  color:white;
+  background-color:#5b3629;
+  outline: 2px solid white;
+}
+
+
+
+.back-button{
+  color:#5b3629;
+    height: 7%;
+    width: 15%;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    background-color: none;
+    outline: 1px solid #5b3629;
+    outline-offset: -6px;
+    outline-width: 2px;
+    border-radius: 60px;
+    fill: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover{
+  outline-offset: -4px;
+  color:white;
+  background-color:#5b3629;
+  outline: 2px solid white;
+}
+
+
+
+.disheader{
+  font-family: 'Cinzel', serif;
+  color:rgb(5, 5, 5);
+  font-size: 270%;
+  left: 1.5%;
+  bottom: 31%;
+  font-weight: 550;
+  
+}
+
+
+.distext{
+  font-family: 'Noto Sans Symbols', sans-serif;
+  font-size: medium;
+  color: rgb(53, 46, 27);
+  font-size:18px;
+  margin-left: 2.5%;
+  margin-right: 3%;
+  position: absolute;
+  left:1.5% ;
+  top:45%;
+  letter-spacing: 0.1cm;
+  font-weight: 600;
+  width:50%;
+}
+
