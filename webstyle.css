@@ -374,6 +374,7 @@ body {
     padding: 12px 16px;
     z-index: 2;
     top:100%;
+    overflow:auto
    
   }
   
